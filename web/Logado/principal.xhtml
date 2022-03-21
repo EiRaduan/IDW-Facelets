@@ -12,7 +12,7 @@
         <h1>Sistemas Unirbar</h1>
         <hr/>
         
-        <ui:composition template="/templates/pricipal.xhtml">
+        <ui:composition template="/templates/principal.xhtml">
             <ui:define name="titulo">
                 Area Logada
             </ui:define>
@@ -23,7 +23,7 @@
                 <h:form>
                     <sec:ifAnyGranted roles="ROLE_ADMINISTRADOR">
                         <h:commandLink action="/Admin/principal" title="Administrativo">
-                            <h:graphicImage value="/Resources/imagens/administrativo16.png"/>
+                            <h:graphicImage library="imagens" name="administrativo16.png"/>
                         </h:commandLink>
                     </sec:ifAnyGranted>
                 </h:form>

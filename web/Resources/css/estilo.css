@@ -3,6 +3,7 @@ body, td, th {
     font-size: 12px;
 }
 
+/*no slide 16 do arquivo Aula 07 tá diferente, quando copido da erro no url*/
 th {
     background: url("#{resource['imagens:fundo_claro.png']}");
     min-height: 25px;
@@ -26,6 +27,7 @@ img {
     font-weight: bold;
 }
 
+/*no slide 17 do arquivo Aula 07 tá diferente, quando copido da erro no url*/
 #barra_menu {
     background: url("#{resource['imagens:fundo_barra_menu.png']}") repeat-x; 
     min-height: 25px;
@@ -39,6 +41,7 @@ img {
     min-height: 300px;
 }
 
+/*no slide 18 do arquivo Aula 07 tá diferente, quando copido da erro no url*/
 #rodape {
     background: url("#{resource['imagens:fundo_barra_rodape.png']}") repeat-x;
     height: 100px;
