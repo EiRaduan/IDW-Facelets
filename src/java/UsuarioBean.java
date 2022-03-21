@@ -98,7 +98,7 @@ public class UsuarioBean {
         }
         
         this.usuario.getPermissao().add(cargo);
-        if(cargo.equals("HOLE_ADMINISTRADOR")){
+        if(cargo.equals("ROLE_ADMINISTRADOR")){
             this.usuario.getPermissao().add("ROLE_USUARIO");
         }
         

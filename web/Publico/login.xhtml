@@ -16,7 +16,7 @@ and open the template in the editor.
                 <h:commandButton action="#{usuarioBean.novo}" value="Registre-se"/>
             </h:form>
             <h:panelGroup rendered="#{!empty param.login_error}">
-                <span style="color:red">Erro ao efetuar login.</span>
+                <span style="font-color:red">Erro ao efetuar login.</span>
                 <br />
                 <br />
                 Motivo: #{SPRING_SECURITY_LAST_EXCEPTION.message}
@@ -36,7 +36,7 @@ and open the template in the editor.
                         </td>
                     </tr>
                     <tr>
-                        <td colspan="2" style="justify-content: center; align-items: center">
+                        <td>
                             <input type="submit" value="Entrar" /> 
                         </td>
                     </tr>
